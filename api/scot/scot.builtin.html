@@ -1,0 +1,293 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>scot.builtin package &mdash; SCoT 0.1.0 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '0.1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="SCoT 0.1.0 documentation" href="../../index.html" />
+    <link rel="up" title="scot package" href="scot.html" />
+    <link rel="next" title="MyTest: Testing Stuff..." href="../../mytest.html" />
+    <link rel="prev" title="scot.backend package" href="scot.backend.html" /> 
+  </head>
+  <body>
+
+<div style="background-color: white; text-align: left; padding: 10px 10px 15px 15px">
+<a href="../../index.html"><img src="../../_static/logo.png" border="0" alt="py4sci"/></a>
+</div>
+
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="../../mytest.html" title="MyTest: Testing Stuff..."
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="scot.backend.html" title="scot.backend package"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">home</a>|&nbsp;</li>
+        <li><a href="../../search.html">search</a>|&nbsp;</li>
+
+          <li><a href="../../api_reference.html" >API Reference</a> &raquo;</li>
+          <li><a href="modules.html" >scot</a> &raquo;</li>
+          <li><a href="scot.html" accesskey="U">scot package</a> &raquo;</li> 
+      </ul>
+    </div>
+
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">scot.builtin package</a><ul>
+<li><a class="reference internal" href="#submodules">Submodules</a></li>
+<li><a class="reference internal" href="#module-scot.builtin.binica">scot.builtin.binica module</a></li>
+<li><a class="reference internal" href="#module-scot.builtin.pca">scot.builtin.pca module</a></li>
+<li><a class="reference internal" href="#module-scot.builtin.utils">scot.builtin.utils module</a></li>
+<li><a class="reference internal" href="#module-scot.builtin.var">scot.builtin.var module</a></li>
+<li><a class="reference internal" href="#module-scot.builtin">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="scot.backend.html"
+                        title="previous chapter">scot.backend package</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="../../mytest.html"
+                        title="next chapter">MyTest: Testing Stuff...</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/api/scot/scot.builtin.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="scot-builtin-package">
+<h1>scot.builtin package<a class="headerlink" href="#scot-builtin-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-scot.builtin.binica">
+<span id="scot-builtin-binica-module"></span><h2>scot.builtin.binica module<a class="headerlink" href="#module-scot.builtin.binica" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="scot.builtin.binica.binica">
+<tt class="descclassname">scot.builtin.binica.</tt><tt class="descname">binica</tt><big>(</big><em>data</em><big>)</big><a class="headerlink" href="#scot.builtin.binica.binica" title="Permalink to this definition">¶</a></dt>
+<dd><p>Simple wrapper for the binica program.</p>
+<dl class="docutils">
+<dt>BINICA is bundled with EEGLAB, or can be downloaded from here:</dt>
+<dd><a class="reference external" href="http://sccn.ucsd.edu/eeglab/binica/">http://sccn.ucsd.edu/eeglab/binica/</a></dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="scot.builtin.binica.check_binary">
+<tt class="descclassname">scot.builtin.binica.</tt><tt class="descname">check_binary</tt><big>(</big><em>binary</em><big>)</big><a class="headerlink" href="#scot.builtin.binica.check_binary" title="Permalink to this definition">¶</a></dt>
+<dd><p>check if binary is available, and try to obtain it if not</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-scot.builtin.pca">
+<span id="scot-builtin-pca-module"></span><h2>scot.builtin.pca module<a class="headerlink" href="#module-scot.builtin.pca" title="Permalink to this headline">¶</a></h2>
+<p>principal component analysis (PCA) implementation</p>
+<dl class="function">
+<dt id="scot.builtin.pca.pca">
+<tt class="descclassname">scot.builtin.pca.</tt><tt class="descname">pca</tt><big>(</big><em>x</em>, <em>subtract_mean=False</em>, <em>normalize=False</em>, <em>sort_components=True</em>, <em>reducedim=None</em>, <em>algorithm=&lt;function pca_eig at 0x7f31063cad40&gt;</em><big>)</big><a class="headerlink" href="#scot.builtin.pca.pca" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="docutils">
+<dt>pca( x, subtract_mean=False,</dt>
+<dd>normalize=False,
+sort_components=True,
+retain_variance=None,
+algorithm=pcaEIG ):</dd>
+</dl>
+<p>calculate principal component analysis (PCA).</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="scot.builtin.pca.pca_eig">
+<tt class="descclassname">scot.builtin.pca.</tt><tt class="descname">pca_eig</tt><big>(</big><em>x</em><big>)</big><a class="headerlink" href="#scot.builtin.pca.pca_eig" title="Permalink to this definition">¶</a></dt>
+<dd><p>calculate PCA as eigenvalues of the covariance (observations in rows)</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="scot.builtin.pca.pca_svd">
+<tt class="descclassname">scot.builtin.pca.</tt><tt class="descname">pca_svd</tt><big>(</big><em>data</em><big>)</big><a class="headerlink" href="#scot.builtin.pca.pca_svd" title="Permalink to this definition">¶</a></dt>
+<dd><p>calculate PCA from SVD (observations in rows)</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-scot.builtin.utils">
+<span id="scot-builtin-utils-module"></span><h2>scot.builtin.utils module<a class="headerlink" href="#module-scot.builtin.utils" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="scot.builtin.utils.cartesian">
+<tt class="descclassname">scot.builtin.utils.</tt><tt class="descname">cartesian</tt><big>(</big><em>arrays</em>, <em>out=None</em><big>)</big><a class="headerlink" href="#scot.builtin.utils.cartesian" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generate a cartesian product of input arrays.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>arrays</strong> : list of array-like</p>
+<blockquote>
+<div><p>1-D arrays to form the cartesian product of.</p>
+</div></blockquote>
+<p><strong>out</strong> : ndarray</p>
+<blockquote>
+<div><p>Array to place the cartesian product in.</p>
+</div></blockquote>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><strong>out</strong> : ndarray</p>
+<blockquote class="last">
+<div><p>2-D array of shape (M, len(arrays)) containing cartesian products
+formed of input arrays.</p>
+</div></blockquote>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">References</p>
+<p><a class="reference external" href="http://stackoverflow.com/a/1235363/3005167">http://stackoverflow.com/a/1235363/3005167</a></p>
+<p class="rubric">Examples</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">cartesian</span><span class="p">(([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">],</span> <span class="p">[</span><span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">]))</span>
+<span class="go">array([[1, 4, 6],</span>
+<span class="go">       [1, 4, 7],</span>
+<span class="go">       [1, 5, 6],</span>
+<span class="go">       [1, 5, 7],</span>
+<span class="go">       [2, 4, 6],</span>
+<span class="go">       [2, 4, 7],</span>
+<span class="go">       [2, 5, 6],</span>
+<span class="go">       [2, 5, 7],</span>
+<span class="go">       [3, 4, 6],</span>
+<span class="go">       [3, 4, 7],</span>
+<span class="go">       [3, 5, 6],</span>
+<span class="go">       [3, 5, 7]])</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="module-scot.builtin.var">
+<span id="scot-builtin-var-module"></span><h2>scot.builtin.var module<a class="headerlink" href="#module-scot.builtin.var" title="Permalink to this headline">¶</a></h2>
+<p>vector autoregressive (VAR) model implementation</p>
+<dl class="class">
+<dt id="scot.builtin.var.VAR">
+<em class="property">class </em><tt class="descclassname">scot.builtin.var.</tt><tt class="descname">VAR</tt><big>(</big><em>model_order</em>, <em>delta=0</em>, <em>xvschema=&lt;function multitrial at 0x7f31063c05f0&gt;</em><big>)</big><a class="headerlink" href="#scot.builtin.var.VAR" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="scot.html#scot.var.VARBase" title="scot.var.VARBase"><tt class="xref py py-class docutils literal"><span class="pre">scot.var.VARBase</span></tt></a></p>
+<p>Represents a vector autoregressive (VAR) model.</p>
+<dl class="docutils">
+<dt>Note on the arrangement of model coefficients:</dt>
+<dd><dl class="first docutils">
+<dt>b is of shape m, m*p, with sub matrices arranged as follows:</dt>
+<dd>b_00 b_01 ... b_0m
+b_10 b_11 ... b_1m
+.... ....     ....
+b_m0 b_m1 ... b_mm</dd>
+</dl>
+<p class="last">Each sub matrix b_ij is a column vector of length p that contains the
+filter coefficients from channel j (source) to channel i (sink).</p>
+</dd>
+</dl>
+<dl class="method">
+<dt id="scot.builtin.var.VAR.fit">
+<tt class="descname">fit</tt><big>(</big><em>data</em><big>)</big><a class="headerlink" href="#scot.builtin.var.VAR.fit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Fit the model to data.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="scot.builtin.var.VAR.optimize">
+<tt class="descname">optimize</tt><big>(</big><em>data</em><big>)</big><a class="headerlink" href="#scot.builtin.var.VAR.optimize" title="Permalink to this definition">¶</a></dt>
+<dd><p>Optimize the var model&#8217;s hyperparameters (such as regularization).</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="scot.builtin.var.VAR.optimize_delta_bisection">
+<tt class="descname">optimize_delta_bisection</tt><big>(</big><em>data</em>, <em>skipstep=1</em><big>)</big><a class="headerlink" href="#scot.builtin.var.VAR.optimize_delta_bisection" title="Permalink to this definition">¶</a></dt>
+<dd><p>Use the bisection method to find optimal regularization parameter delta.</p>
+<p>Behavior of this function depends on the xvschema attribute.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-scot.builtin">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-scot.builtin" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="../../mytest.html" title="MyTest: Testing Stuff..."
+             >next</a> |</li>
+        <li class="right" >
+          <a href="scot.backend.html" title="scot.backend package"
+             >previous</a> |</li>
+        <li><a href="../../index.html">home</a>|&nbsp;</li>
+        <li><a href="../../search.html">search</a>|&nbsp;</li>
+
+          <li><a href="../../api_reference.html" >API Reference</a> &raquo;</li>
+          <li><a href="modules.html" >scot</a> &raquo;</li>
+          <li><a href="scot.html" >scot package</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2014, Martin Billinger.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.
+    </div>
+  </body>
+</html>
